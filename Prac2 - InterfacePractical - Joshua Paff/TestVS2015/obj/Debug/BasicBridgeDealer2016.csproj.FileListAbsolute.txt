@@ -1,0 +1,10 @@
+F:\IN710 OOSD 2016\IN710_2016_TeachingSessions\IN710 OOSD 2016 Week 02\InterfacePractical\TestVS2015\bin\Debug\TestVS2015.exe.config
+H:\Teaching Materials Semester 1 2016\IN710 OOSD 2016 Week 02\InterfacePractical\TestVS2015\bin\Debug\TestVS2015.exe.config
+C:\Users\Mr Nobody\Desktop\Week 2\InterfacePractical\TestVS2015\bin\Debug\TestVS2015.exe.config
+C:\Users\Mr Nobody\Desktop\Week 2\InterfacePractical\TestVS2015\bin\Debug\TestVS2015.exe
+C:\Users\Mr Nobody\Desktop\Week 2\InterfacePractical\TestVS2015\bin\Debug\TestVS2015.pdb
+C:\Users\Mr Nobody\Desktop\Week 2\InterfacePractical\TestVS2015\obj\Debug\TestVS2015.Form1.resources
+C:\Users\Mr Nobody\Desktop\Week 2\InterfacePractical\TestVS2015\obj\Debug\TestVS2015.Properties.Resources.resources
+C:\Users\Mr Nobody\Desktop\Week 2\InterfacePractical\TestVS2015\obj\Debug\BasicBridgeDealer2016.csproj.GenerateResource.Cache
+C:\Users\Mr Nobody\Desktop\Week 2\InterfacePractical\TestVS2015\obj\Debug\TestVS2015.exe
+C:\Users\Mr Nobody\Desktop\Week 2\InterfacePractical\TestVS2015\obj\Debug\TestVS2015.pdb
