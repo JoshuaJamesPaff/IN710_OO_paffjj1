@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,13 +7,13 @@ namespace Stacks_Joshua_Paff
 {
     public class Stack
     {
-        //linked list of strings to hold stack values
-        private LinkedList<String> stack;
+        //linked list of stringnodes
+        private StringList stack;
 
         // constructor initialises linked list
         public Stack()
         {
-            stack = new LinkedList<String>();
+            stack = new StringList();
         }
 
         //adds newString to the top of the stack
@@ -23,14 +22,14 @@ namespace Stacks_Joshua_Paff
             stack.AddFirst(newString);
         }
 
-        // removes and returns first string from stack
+        // removes first string node from stack and returns its string value
         public String Pop()
         {
             if (stack.Count() > 0 )
             {
-                String firstString = stack.First();
+                StringNode firstString = stack.GetFirst();
                 stack.RemoveFirst();
-                return firstString;
+                return firstString.toString();
             }
             else
             {
@@ -38,16 +37,16 @@ namespace Stacks_Joshua_Paff
             }
         }
 
-        // returns first string on stack, returns exception if empty
+        // returns first stringnode on stack, returns exception if empty
         public String Peek()
         {
             if (stack.Count() > 0)
             {
-                return stack.First();
+                return stack.GetFirst().toString();
             }
             else
             {
-                throw new System.InvalidOperationException("There are no Strings in the Stack to peek at.");
+                throw new System.InvalidOperationException("There are no StringNodes in the Stack to peek at.");
             }
 
         }
