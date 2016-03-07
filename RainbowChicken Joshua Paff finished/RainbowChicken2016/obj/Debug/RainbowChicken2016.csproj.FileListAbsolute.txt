@@ -33,3 +33,6 @@ C:\Users\Mr Nobody\Desktop\Week3\3.1 OOSD\RainbowChicken2016 Skeleton\RainbowChi
 C:\Users\Mr Nobody\Desktop\Week3\3.1 OOSD\RainbowChicken2016 Skeleton\RainbowChicken2016\obj\Debug\RainbowChicken2016.csproj.GenerateResource.Cache
 C:\Users\Mr Nobody\Desktop\Week3\3.1 OOSD\RainbowChicken2016 Skeleton\RainbowChicken2016\obj\Debug\RainbowChicken2016.exe
 C:\Users\Mr Nobody\Desktop\Week3\3.1 OOSD\RainbowChicken2016 Skeleton\RainbowChicken2016\obj\Debug\RainbowChicken2016.pdb
+C:\Users\Mr Nobody\Documents\GitHub\IN710_paffjj1\RainbowChicken Joshua Paff finished\RainbowChicken2016\bin\Debug\RainbowChicken2016.exe.config
+C:\Users\Mr Nobody\Documents\GitHub\IN710_paffjj1\RainbowChicken Joshua Paff finished\RainbowChicken2016\obj\Debug\RainbowChicken2016.exe
+C:\Users\Mr Nobody\Documents\GitHub\IN710_paffjj1\RainbowChicken Joshua Paff finished\RainbowChicken2016\obj\Debug\RainbowChicken2016.pdb

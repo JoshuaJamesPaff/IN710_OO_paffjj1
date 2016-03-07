@@ -22,7 +22,7 @@ namespace Stacks_Joshua_Paff
             stack.AddFirst(newString);
         }
 
-        // removes first string node from stack and returns its string value
+        // removes first stringnode from stack and returns its string value
         public String Pop()
         {
             if (stack.Count() > 0 )
@@ -37,7 +37,7 @@ namespace Stacks_Joshua_Paff
             }
         }
 
-        // returns first stringnode on stack, returns exception if empty
+        // returns first stringnodes value on stack, returns exception if empty
         public String Peek()
         {
             if (stack.Count() > 0)

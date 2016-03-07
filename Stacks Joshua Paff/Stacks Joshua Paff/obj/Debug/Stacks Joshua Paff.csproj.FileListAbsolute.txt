@@ -4,3 +4,9 @@ C:\Users\Mr Nobody\Desktop\Object Oriented\Labs\Stacks Joshua Paff\Stacks Joshua
 C:\Users\Mr Nobody\Desktop\Object Oriented\Labs\Stacks Joshua Paff\Stacks Joshua Paff\obj\Debug\Stacks Joshua Paff.csprojResolveAssemblyReference.cache
 C:\Users\Mr Nobody\Desktop\Object Oriented\Labs\Stacks Joshua Paff\Stacks Joshua Paff\obj\Debug\Stacks Joshua Paff.exe
 C:\Users\Mr Nobody\Desktop\Object Oriented\Labs\Stacks Joshua Paff\Stacks Joshua Paff\obj\Debug\Stacks Joshua Paff.pdb
+C:\Users\Mr Nobody\Documents\GitHub\IN710_paffjj1\Stacks Joshua Paff\Stacks Joshua Paff\bin\Debug\Stacks Joshua Paff.exe.config
+C:\Users\Mr Nobody\Documents\GitHub\IN710_paffjj1\Stacks Joshua Paff\Stacks Joshua Paff\obj\Debug\Stacks Joshua Paff.exe
+C:\Users\Mr Nobody\Documents\GitHub\IN710_paffjj1\Stacks Joshua Paff\Stacks Joshua Paff\obj\Debug\Stacks Joshua Paff.pdb
+C:\Users\Mr Nobody\Documents\GitHub\IN710_paffjj1\Stacks Joshua Paff\Stacks Joshua Paff\bin\Debug\Stacks Joshua Paff.exe
+C:\Users\Mr Nobody\Documents\GitHub\IN710_paffjj1\Stacks Joshua Paff\Stacks Joshua Paff\bin\Debug\Stacks Joshua Paff.pdb
+C:\Users\Mr Nobody\Documents\GitHub\IN710_paffjj1\Stacks Joshua Paff\Stacks Joshua Paff\obj\Debug\Stacks Joshua Paff.csprojResolveAssemblyReference.cache
