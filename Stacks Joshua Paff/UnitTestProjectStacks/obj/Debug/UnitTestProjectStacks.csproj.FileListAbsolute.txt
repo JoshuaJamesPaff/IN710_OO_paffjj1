@@ -1,0 +1,7 @@
+C:\Users\Mr Nobody\Desktop\Object Oriented\Labs\Stacks Joshua Paff\UnitTestProjectStacks\bin\Debug\UnitTestProjectStacks.dll
+C:\Users\Mr Nobody\Desktop\Object Oriented\Labs\Stacks Joshua Paff\UnitTestProjectStacks\bin\Debug\UnitTestProjectStacks.pdb
+C:\Users\Mr Nobody\Desktop\Object Oriented\Labs\Stacks Joshua Paff\UnitTestProjectStacks\bin\Debug\Stacks Joshua Paff.exe
+C:\Users\Mr Nobody\Desktop\Object Oriented\Labs\Stacks Joshua Paff\UnitTestProjectStacks\bin\Debug\Stacks Joshua Paff.pdb
+C:\Users\Mr Nobody\Desktop\Object Oriented\Labs\Stacks Joshua Paff\UnitTestProjectStacks\obj\Debug\UnitTestProjectStacks.csprojResolveAssemblyReference.cache
+C:\Users\Mr Nobody\Desktop\Object Oriented\Labs\Stacks Joshua Paff\UnitTestProjectStacks\obj\Debug\UnitTestProjectStacks.dll
+C:\Users\Mr Nobody\Desktop\Object Oriented\Labs\Stacks Joshua Paff\UnitTestProjectStacks\obj\Debug\UnitTestProjectStacks.pdb
