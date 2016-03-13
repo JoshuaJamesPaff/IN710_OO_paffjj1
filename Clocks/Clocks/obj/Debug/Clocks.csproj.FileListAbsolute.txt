@@ -1,0 +1,8 @@
+C:\Users\Mr Nobody\Desktop\Object Oriented\Labs\Clocks\Clocks\bin\Debug\Clocks.exe.config
+C:\Users\Mr Nobody\Desktop\Object Oriented\Labs\Clocks\Clocks\bin\Debug\Clocks.exe
+C:\Users\Mr Nobody\Desktop\Object Oriented\Labs\Clocks\Clocks\bin\Debug\Clocks.pdb
+C:\Users\Mr Nobody\Desktop\Object Oriented\Labs\Clocks\Clocks\obj\Debug\Clocks.Form1.resources
+C:\Users\Mr Nobody\Desktop\Object Oriented\Labs\Clocks\Clocks\obj\Debug\Clocks.Properties.Resources.resources
+C:\Users\Mr Nobody\Desktop\Object Oriented\Labs\Clocks\Clocks\obj\Debug\Clocks.csproj.GenerateResource.Cache
+C:\Users\Mr Nobody\Desktop\Object Oriented\Labs\Clocks\Clocks\obj\Debug\Clocks.exe
+C:\Users\Mr Nobody\Desktop\Object Oriented\Labs\Clocks\Clocks\obj\Debug\Clocks.pdb
