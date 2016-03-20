@@ -20,30 +20,27 @@ namespace CustomPC
             InitializeComponent();
         }
 
+        //creates object for selected rb and prints its specs
         private void buttonPrintPC_Click(object sender, EventArgs e)
         {
             if (rbBusinessPC.Checked) 
             {
                 currentPC = new BusinessPC(listBoxDisplaySpecs);
-                currentPC.BuildPC();
                 currentPC.ShowSpecs();
             }
             else if (rbGamingPC.Checked)
             {
                 currentPC = new GamingPC(listBoxDisplaySpecs);
-                currentPC.BuildPC();
                 currentPC.ShowSpecs();
             }
             else if (rbLaptop.Checked)
             {
                 currentPC = new LaptopPC(listBoxDisplaySpecs);
-                currentPC.BuildPC();
                 currentPC.ShowSpecs();
             }
             else
             {
                 currentPC = new MultiPC(listBoxDisplaySpecs);
-                currentPC.BuildPC();
                 currentPC.ShowSpecs();
             }
         }

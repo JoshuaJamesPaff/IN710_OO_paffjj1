@@ -10,7 +10,7 @@ namespace CustomPC
     {
         public List<Component> setComponents()
         {
-            //sets multimedia components
+            //sets multimedia components for this build
             List<Component> multiSpecs = new List<Component>();
             multiSpecs.Add(new GFX("AMD Radeon 2GB 800MHZ", 300));
             multiSpecs.Add(new CPU("Intel i5 quad-core 3.2GHZ", 200));

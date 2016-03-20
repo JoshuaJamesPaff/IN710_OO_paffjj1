@@ -10,7 +10,7 @@ namespace CustomPC
     {
         public List<Component> setComponents()
         {
-            //sets gaming components
+            //sets gaming components for this build
             List<Component> gamingSpecs = new List<Component>();
             gamingSpecs.Add(new GFX("AMD Radeon 4GB 1GHZ", 500));
             gamingSpecs.Add(new CPU("Intel i7 quad-core 4GHZ", 400));

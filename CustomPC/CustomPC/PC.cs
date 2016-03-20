@@ -19,15 +19,16 @@ namespace CustomPC
             this.displayBox = displayBox;
         }
 
-        //sets components
+        //sets components using pc builder
         public void BuildPC()
         {
             parts = pcBuilder.setComponents();
         }
 
-        //outputs pc info
+        //builds pc and outputs info
         public void ShowSpecs()
         {
+            BuildPC();
             displayBox.Items.Clear();
 
             int totalCost = 0;

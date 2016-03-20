@@ -10,7 +10,7 @@ namespace CustomPC
     {
         public List<Component> setComponents()
         {
-            //sets multimedia components
+            //sets multimedia components for this particular build
             List<Component> multiSpecs = new List<Component>();
             multiSpecs.Add(new GFX("Intel Iris 1.5GB 800MHZ", 320));
             multiSpecs.Add(new CPU("Intel i5 mobile dual-core 3.0GHZ", 300));
