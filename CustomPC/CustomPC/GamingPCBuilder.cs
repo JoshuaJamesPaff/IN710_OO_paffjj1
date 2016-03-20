@@ -15,6 +15,7 @@ namespace CustomPC
             gamingSpecs.Add(new GFX("AMD Radeon 4GB 1GHZ", 500));
             gamingSpecs.Add(new CPU("Intel i7 quad-core 4GHZ", 400));
             gamingSpecs.Add(new RAM("Corsair DDR4 2100MHZ 12GB", 750));
+            gamingSpecs.Add(new Monitor("LG 24' 1080p", 350));
 
             return gamingSpecs;
         }

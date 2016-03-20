@@ -58,6 +58,9 @@
     <Compile Include="GamingPCBuilder.cs" />
     <Compile Include="GFX.cs" />
     <Compile Include="IPCBuilder.cs" />
+    <Compile Include="LaptopPC.cs" />
+    <Compile Include="LaptopPCBuilder.cs" />
+    <Compile Include="Monitor.cs" />
     <Compile Include="MulitPCBuilder.cs" />
     <Compile Include="MultiPC.cs" />
     <Compile Include="PC.cs" />

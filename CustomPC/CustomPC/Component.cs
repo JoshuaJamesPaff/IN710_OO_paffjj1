@@ -8,6 +8,7 @@ namespace CustomPC
 {
     public abstract class Component
     {
+        //has a name and a price
         protected string name;
         protected int price;
 
@@ -22,6 +23,7 @@ namespace CustomPC
             return price + "\t" + name;
         }
 
+        //returns the price property
         public int getPrice(){
             return price;
         }

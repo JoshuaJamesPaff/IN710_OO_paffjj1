@@ -15,6 +15,7 @@ namespace CustomPC
             businessSpecs.Add(new GFX("AMD Radeon 1GB 750MHZ", 290));
             businessSpecs.Add(new CPU("Intel i5 quad-core 3.2GHZ", 200));
             businessSpecs.Add(new RAM("Corsair DDR3 1800MHZ 2GB", 320));
+            businessSpecs.Add(new Monitor("LG 24' 1080p", 350));
 
             return businessSpecs;
         }

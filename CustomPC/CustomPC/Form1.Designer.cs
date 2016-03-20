@@ -31,9 +31,10 @@
             this.buttonPrintPC = new System.Windows.Forms.Button();
             this.listBoxDisplaySpecs = new System.Windows.Forms.ListBox();
             this.groupBoxPCtype = new System.Windows.Forms.GroupBox();
-            this.rbGamingPC = new System.Windows.Forms.RadioButton();
-            this.rbBusinessPC = new System.Windows.Forms.RadioButton();
             this.rbMultimediaPC = new System.Windows.Forms.RadioButton();
+            this.rbBusinessPC = new System.Windows.Forms.RadioButton();
+            this.rbGamingPC = new System.Windows.Forms.RadioButton();
+            this.rbLaptop = new System.Windows.Forms.RadioButton();
             this.groupBoxPCtype.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -58,6 +59,7 @@
             // 
             // groupBoxPCtype
             // 
+            this.groupBoxPCtype.Controls.Add(this.rbLaptop);
             this.groupBoxPCtype.Controls.Add(this.rbMultimediaPC);
             this.groupBoxPCtype.Controls.Add(this.rbBusinessPC);
             this.groupBoxPCtype.Controls.Add(this.rbGamingPC);
@@ -67,6 +69,28 @@
             this.groupBoxPCtype.TabIndex = 2;
             this.groupBoxPCtype.TabStop = false;
             this.groupBoxPCtype.Text = "PC Type";
+            // 
+            // rbMultimediaPC
+            // 
+            this.rbMultimediaPC.AutoSize = true;
+            this.rbMultimediaPC.Location = new System.Drawing.Point(6, 120);
+            this.rbMultimediaPC.Name = "rbMultimediaPC";
+            this.rbMultimediaPC.Size = new System.Drawing.Size(135, 24);
+            this.rbMultimediaPC.TabIndex = 2;
+            this.rbMultimediaPC.TabStop = true;
+            this.rbMultimediaPC.Text = "Multimedia PC";
+            this.rbMultimediaPC.UseVisualStyleBackColor = true;
+            // 
+            // rbBusinessPC
+            // 
+            this.rbBusinessPC.AutoSize = true;
+            this.rbBusinessPC.Location = new System.Drawing.Point(6, 90);
+            this.rbBusinessPC.Name = "rbBusinessPC";
+            this.rbBusinessPC.Size = new System.Drawing.Size(124, 24);
+            this.rbBusinessPC.TabIndex = 1;
+            this.rbBusinessPC.TabStop = true;
+            this.rbBusinessPC.Text = "Business PC";
+            this.rbBusinessPC.UseVisualStyleBackColor = true;
             // 
             // rbGamingPC
             // 
@@ -80,27 +104,16 @@
             this.rbGamingPC.Text = "Gaming PC";
             this.rbGamingPC.UseVisualStyleBackColor = true;
             // 
-            // rbBusinessPC
+            // rbLaptop
             // 
-            this.rbBusinessPC.AutoSize = true;
-            this.rbBusinessPC.Location = new System.Drawing.Point(6, 90);
-            this.rbBusinessPC.Name = "rbBusinessPC";
-            this.rbBusinessPC.Size = new System.Drawing.Size(124, 24);
-            this.rbBusinessPC.TabIndex = 1;
-            this.rbBusinessPC.TabStop = true;
-            this.rbBusinessPC.Text = "Business PC";
-            this.rbBusinessPC.UseVisualStyleBackColor = true;
-            // 
-            // rbMultimediaPC
-            // 
-            this.rbMultimediaPC.AutoSize = true;
-            this.rbMultimediaPC.Location = new System.Drawing.Point(6, 120);
-            this.rbMultimediaPC.Name = "rbMultimediaPC";
-            this.rbMultimediaPC.Size = new System.Drawing.Size(135, 24);
-            this.rbMultimediaPC.TabIndex = 2;
-            this.rbMultimediaPC.TabStop = true;
-            this.rbMultimediaPC.Text = "Multimedia PC";
-            this.rbMultimediaPC.UseVisualStyleBackColor = true;
+            this.rbLaptop.AutoSize = true;
+            this.rbLaptop.Location = new System.Drawing.Point(6, 150);
+            this.rbLaptop.Name = "rbLaptop";
+            this.rbLaptop.Size = new System.Drawing.Size(109, 24);
+            this.rbLaptop.TabIndex = 3;
+            this.rbLaptop.TabStop = true;
+            this.rbLaptop.Text = "Laptop PC";
+            this.rbLaptop.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -126,6 +139,7 @@
         private System.Windows.Forms.RadioButton rbMultimediaPC;
         private System.Windows.Forms.RadioButton rbBusinessPC;
         private System.Windows.Forms.RadioButton rbGamingPC;
+        private System.Windows.Forms.RadioButton rbLaptop;
     }
 }
 

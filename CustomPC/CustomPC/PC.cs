@@ -9,6 +9,7 @@ namespace CustomPC
 {
     public abstract class PC
     {
+        //has a list of components a component builder and a listbox to output to
         protected List<Component> parts = new List<Component>();
         protected IPCBuilder pcBuilder;
         protected ListBox displayBox;
@@ -18,11 +19,13 @@ namespace CustomPC
             this.displayBox = displayBox;
         }
 
+        //sets components
         public void BuildPC()
         {
             parts = pcBuilder.setComponents();
         }
 
+        //outputs pc info
         public void ShowSpecs()
         {
             displayBox.Items.Clear();

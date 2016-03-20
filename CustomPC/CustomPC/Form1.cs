@@ -34,6 +34,12 @@ namespace CustomPC
                 currentPC.BuildPC();
                 currentPC.ShowSpecs();
             }
+            else if (rbLaptop.Checked)
+            {
+                currentPC = new LaptopPC(listBoxDisplaySpecs);
+                currentPC.BuildPC();
+                currentPC.ShowSpecs();
+            }
             else
             {
                 currentPC = new MultiPC(listBoxDisplaySpecs);
