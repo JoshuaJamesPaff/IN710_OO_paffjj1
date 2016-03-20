@@ -20,7 +20,8 @@ namespace WorldSim
             InitializeComponent();
 
             randGen = new Random();
-            //sets canvas to panel and its color
+
+            //sets canvas to panel and its inital color
             canvas = panelAnimalGraphics.CreateGraphics();
             canvas.Clear(Color.Green);
         }

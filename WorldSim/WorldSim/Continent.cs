@@ -11,7 +11,7 @@ namespace WorldSim
     public abstract class Continent
     {
         //number of animals displayed at one time
-        public const int ANIMAL_SIM_COUNT = 4;
+        public const int ANIMAL_SIM_COUNT = 5;
 
         protected ListBox displayBox;
         protected Random randGen;

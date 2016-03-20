@@ -6,3 +6,12 @@ C:\Users\Mr Nobody\Desktop\Object Oriented\Labs\WorldSim\WorldSim\obj\Debug\Worl
 C:\Users\Mr Nobody\Desktop\Object Oriented\Labs\WorldSim\WorldSim\obj\Debug\WorldSim.csproj.GenerateResource.Cache
 C:\Users\Mr Nobody\Desktop\Object Oriented\Labs\WorldSim\WorldSim\obj\Debug\WorldSim.exe
 C:\Users\Mr Nobody\Desktop\Object Oriented\Labs\WorldSim\WorldSim\obj\Debug\WorldSim.pdb
+C:\Users\Mr Nobody\Documents\GitHub\IN710_paffjj1\WorldSim\WorldSim\bin\Debug\WorldSim.exe.config
+C:\Users\Mr Nobody\Documents\GitHub\IN710_paffjj1\WorldSim\WorldSim\obj\Debug\WorldSim.exe
+C:\Users\Mr Nobody\Documents\GitHub\IN710_paffjj1\WorldSim\WorldSim\obj\Debug\WorldSim.pdb
+C:\Users\Mr Nobody\Documents\GitHub\IN710_paffjj1\WorldSim\WorldSim\bin\Debug\WorldSim.exe
+C:\Users\Mr Nobody\Documents\GitHub\IN710_paffjj1\WorldSim\WorldSim\bin\Debug\WorldSim.pdb
+C:\Users\Mr Nobody\Documents\GitHub\IN710_paffjj1\WorldSim\WorldSim\obj\Debug\WorldSim.csprojResolveAssemblyReference.cache
+C:\Users\Mr Nobody\Documents\GitHub\IN710_paffjj1\WorldSim\WorldSim\obj\Debug\WorldSim.Form1.resources
+C:\Users\Mr Nobody\Documents\GitHub\IN710_paffjj1\WorldSim\WorldSim\obj\Debug\WorldSim.Properties.Resources.resources
+C:\Users\Mr Nobody\Documents\GitHub\IN710_paffjj1\WorldSim\WorldSim\obj\Debug\WorldSim.csproj.GenerateResource.Cache
