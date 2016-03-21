@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace MixAndMatch
 {
+
     public class CharacterManager : ICharacterPrinter
     {
         //manages a list of characters and a factory to build them
@@ -40,19 +41,21 @@ namespace MixAndMatch
             return createCharacter;
         }
 
-        //returns a list of bitmaps based off characters properties
-        public List<Bitmap> printBitmaps(Character charToPrint)
+        //returns a list of bitmaps based off of a characters properties
+        public List<Bitmap> printCharacter(Character charToPrint, string fileExtension)
         {
-            List<Bitmap> bitmaps = new List<Bitmap>();
+            List<Bitmap> output = new List<Bitmap>();
+            //top img
+            Bitmap topImage = (Bitmap)Image.FromFile(charToPrint.Head + fileExtension);
+            output.Add(topImage);
+            //mid img
+            Bitmap midImage = (Bitmap)Image.FromFile(charToPrint.Body + fileExtension);
+            output.Add(midImage);
+            //bottom img
+            Bitmap bottomImage = (Bitmap)Image.FromFile(charToPrint.Legs + fileExtension);
+            output.Add(bottomImage);
 
-                Bitmap topImage = (Bitmap)Image.FromFile(charToPrint.Head + ".png");
-                bitmaps.Add(topImage);
-                Bitmap midImage = (Bitmap)Image.FromFile(charToPrint.Body + ".png");
-                bitmaps.Add(midImage);
-                Bitmap bottomImage = (Bitmap)Image.FromFile(charToPrint.Legs + ".png");
-                bitmaps.Add(bottomImage);
-
-                return bitmaps;
+            return output;
         }
     }
 }

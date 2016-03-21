@@ -11,6 +11,6 @@ namespace MixAndMatch
     interface ICharacterPrinter
     {
         //returns a list of bitmaps of character c
-        List<Bitmap> printBitmaps(Character c);
+        List<Bitmap> printCharacter(Character c, string fileExtension);
     }
 }

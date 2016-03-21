@@ -32,11 +32,11 @@ namespace MixAndMatch
             comboBoxLegs.SelectedIndex = 0;
 
             //prints default monster
-            printMonster();
+            printNewMonster();
 
         }
 
-        private void printMonster()
+        private void printNewMonster()
         {
             //creates new character based on selections from 3 combo boxes
             Character newChar = manager.createCharacter(
@@ -45,15 +45,15 @@ namespace MixAndMatch
             manager.getCharacterList()[comboBoxLegs.SelectedIndex].Legs);
 
             //ptints images of that character
-            pictureBoxTop.Image = manager.printBitmaps(newChar)[0];
-            pictureBoxMiddle.Image = manager.printBitmaps(newChar)[1];
-            pictureBoxBottom.Image = manager.printBitmaps(newChar)[2];
+            pictureBoxTop.Image = manager.printCharacter(newChar, ".png")[0];
+            pictureBoxMiddle.Image = manager.printCharacter(newChar, ".png")[1];
+            pictureBoxBottom.Image = manager.printCharacter(newChar, ".png")[2];
         }
 
         //creates and prints out new monster when button clicked
         private void buttonMakeMonster_Click(object sender, EventArgs e)
         {
-            printMonster();
+            printNewMonster();
         }
     }
 }
