@@ -7,6 +7,7 @@ using System.Windows.Forms;
 
 namespace CustomPC
 {
+
     public abstract class PC
     {
         //has a list of components a component builder and a listbox to output to

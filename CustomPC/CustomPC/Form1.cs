@@ -26,23 +26,20 @@ namespace CustomPC
             if (rbBusinessPC.Checked) 
             {
                 currentPC = new BusinessPC(listBoxDisplaySpecs);
-                currentPC.ShowSpecs();
             }
             else if (rbGamingPC.Checked)
             {
                 currentPC = new GamingPC(listBoxDisplaySpecs);
-                currentPC.ShowSpecs();
             }
             else if (rbLaptop.Checked)
             {
                 currentPC = new LaptopPC(listBoxDisplaySpecs);
-                currentPC.ShowSpecs();
             }
             else
             {
-                currentPC = new MultiPC(listBoxDisplaySpecs);
-                currentPC.ShowSpecs();
+                currentPC = new MultiPC(listBoxDisplaySpecs);  
             }
+            currentPC.ShowSpecs();
         }
     }
 }
