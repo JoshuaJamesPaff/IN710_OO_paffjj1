@@ -44,7 +44,7 @@ namespace MixAndMatch
             manager.getCharacterList()[comboBoxBody.SelectedIndex].Body,
             manager.getCharacterList()[comboBoxLegs.SelectedIndex].Legs);
 
-            //ptints images of that character
+            //prints images of that character and passes in file extension
             pictureBoxTop.Image = manager.printCharacter(newChar, ".png")[0];
             pictureBoxMiddle.Image = manager.printCharacter(newChar, ".png")[1];
             pictureBoxBottom.Image = manager.printCharacter(newChar, ".png")[2];
