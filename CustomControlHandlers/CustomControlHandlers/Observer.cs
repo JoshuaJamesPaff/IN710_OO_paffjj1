@@ -23,9 +23,6 @@ namespace CustomControlHandlers
             this.random = random;
             buttonString = buttonToClick.ToString();
 
-            //creates delegate instance and passes in suitable method to be run when the event is raised
-            SubjectWithEvent.EventHandlerDelegateWithData delegateInstance = new SubjectWithEvent.EventHandlerDelegateWithData(DoStuff);
-
             //adds delegate instance containing "DoStuff" to the buttons click event 
             buttonToClick.Click += new System.EventHandler(DoStuff); 
         }
