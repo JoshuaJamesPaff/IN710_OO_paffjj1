@@ -12,7 +12,6 @@ namespace ProgressBarUsingEventHandler
 {
     public partial class Form1 : Form
     {
-
         private SubjectWithEvent progressSubject;
         private SpinBoxObserver obsSpin;
         private ProgressBarObserver obsProgress;
@@ -27,9 +26,7 @@ namespace ProgressBarUsingEventHandler
             //creates observers - spinbox takes in form control
             obsSpin = new SpinBoxObserver(progressSubject, spinBox, this);
             obsProgress = new ProgressBarObserver(progressSubject, progressBar);
-            obsTrack = new TrackBarObserver(progressSubject, trackBar);
-
-            
+            obsTrack = new TrackBarObserver(progressSubject, trackBar);     
         }
 
         //raises the event in the subject then resets values when done

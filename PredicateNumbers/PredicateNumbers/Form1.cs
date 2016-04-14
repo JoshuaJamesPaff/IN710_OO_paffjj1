@@ -10,6 +10,11 @@ using System.Windows.Forms;
 
 namespace PredicateNumbers
 {
+  
+    
+    // uses lamda expressions
+
+
     public partial class Form1 : Form
     {
         public Form1()
@@ -32,16 +37,16 @@ namespace PredicateNumbers
             }
         }
 
-        //filters all even numbers to listbox
+        //filters all even numbers to listbox using lambda expressions
         private void buttonEven_Click(object sender, EventArgs e)
         {
-            FilterNumbers(new Predicate<int>(isEven));
+            FilterNumbers(new Predicate<int>((n)=> n % 2 == 0));
         }
 
-        //filters all numbers under 10 to listbox
+        //filters all numbers under 10 to listbox using lambda expressions
         private void buttonUnder10_Click(object sender, EventArgs e)
         {
-            FilterNumbers(new Predicate<int>(isUnderTen));
+            FilterNumbers(new Predicate<int>((n) => n < 10));
         }
 
         //filters and displays numbers depending on predicate input
@@ -66,18 +71,5 @@ namespace PredicateNumbers
 
         }
 
-        //methods for filtering integers
-
-        public bool isEven(int input)
-        {
-            bool isEven = ((input % 2) == 0);
-            return isEven;
-        }
-
-        private bool isUnderTen(int input)
-        {
-            bool isUnderTen = (input < 10);
-            return isUnderTen;
-        }
     }
 }
