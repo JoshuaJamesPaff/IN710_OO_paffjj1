@@ -51,10 +51,8 @@ namespace CityDatabase9._1
 
         public void multiplyPopulation()
         {
-            foreach (City city in cities) multiplyPop(city);
+            foreach (City city in cities) city.Population = multiplyPop(city);
             foreach (City city in cities) listBoxCities.Items.Add(city.toString());
         }
-
-
     }
 }
