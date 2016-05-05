@@ -1,8 +1,0 @@
-C:\Users\Mr Nobody\Desktop\Week4\OOSD 4.1 MASSIVE SETUP\Animal Shelter Skeleton\IN710 4.1 Animal Shelter Solution 2014\obj\x86\Debug\IN710 4.1 Animal Shelter Solution 2014.csprojResolveAssemblyReference.cache
-C:\Users\Mr Nobody\Desktop\Week4\OOSD 4.1 MASSIVE SETUP\Animal Shelter Skeleton\IN710 4.1 Animal Shelter Solution 2014\obj\x86\Debug\IN710_4._1_Animal_Shelter_Solution_2014.Form1.resources
-C:\Users\Mr Nobody\Desktop\Week4\OOSD 4.1 MASSIVE SETUP\Animal Shelter Skeleton\IN710 4.1 Animal Shelter Solution 2014\obj\x86\Debug\IN710_4._1_Animal_Shelter_Solution_2014.Properties.Resources.resources
-C:\Users\Mr Nobody\Desktop\Week4\OOSD 4.1 MASSIVE SETUP\Animal Shelter Skeleton\IN710 4.1 Animal Shelter Solution 2014\obj\x86\Debug\IN710 4.1 Animal Shelter Solution 2014.csproj.GenerateResource.Cache
-C:\Users\Mr Nobody\Desktop\Week4\OOSD 4.1 MASSIVE SETUP\Animal Shelter Skeleton\IN710 4.1 Animal Shelter Solution 2014\bin\Debug\IN710 4.1 Animal Shelter Solution 2014.exe
-C:\Users\Mr Nobody\Desktop\Week4\OOSD 4.1 MASSIVE SETUP\Animal Shelter Skeleton\IN710 4.1 Animal Shelter Solution 2014\bin\Debug\IN710 4.1 Animal Shelter Solution 2014.pdb
-C:\Users\Mr Nobody\Desktop\Week4\OOSD 4.1 MASSIVE SETUP\Animal Shelter Skeleton\IN710 4.1 Animal Shelter Solution 2014\obj\x86\Debug\IN710 4.1 Animal Shelter Solution 2014.exe
-C:\Users\Mr Nobody\Desktop\Week4\OOSD 4.1 MASSIVE SETUP\Animal Shelter Skeleton\IN710 4.1 Animal Shelter Solution 2014\obj\x86\Debug\IN710 4.1 Animal Shelter Solution 2014.pdb

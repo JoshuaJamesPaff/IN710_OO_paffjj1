@@ -1,8 +1,0 @@
-C:\Users\Mr Nobody\Desktop\Object Oriented\Labs\Practical 1 - Joshua Paff\Practical 1 - Joshua Paff\bin\Debug\Practical 1 - Joshua Paff.exe.config
-C:\Users\Mr Nobody\Desktop\Object Oriented\Labs\Practical 1 - Joshua Paff\Practical 1 - Joshua Paff\bin\Debug\Practical 1 - Joshua Paff.exe
-C:\Users\Mr Nobody\Desktop\Object Oriented\Labs\Practical 1 - Joshua Paff\Practical 1 - Joshua Paff\bin\Debug\Practical 1 - Joshua Paff.pdb
-C:\Users\Mr Nobody\Desktop\Object Oriented\Labs\Practical 1 - Joshua Paff\Practical 1 - Joshua Paff\obj\Debug\Practical_1___Joshua_Paff.Form1.resources
-C:\Users\Mr Nobody\Desktop\Object Oriented\Labs\Practical 1 - Joshua Paff\Practical 1 - Joshua Paff\obj\Debug\Practical_1___Joshua_Paff.Properties.Resources.resources
-C:\Users\Mr Nobody\Desktop\Object Oriented\Labs\Practical 1 - Joshua Paff\Practical 1 - Joshua Paff\obj\Debug\Practical 1 - Joshua Paff.csproj.GenerateResource.Cache
-C:\Users\Mr Nobody\Desktop\Object Oriented\Labs\Practical 1 - Joshua Paff\Practical 1 - Joshua Paff\obj\Debug\Practical 1 - Joshua Paff.exe
-C:\Users\Mr Nobody\Desktop\Object Oriented\Labs\Practical 1 - Joshua Paff\Practical 1 - Joshua Paff\obj\Debug\Practical 1 - Joshua Paff.pdb
