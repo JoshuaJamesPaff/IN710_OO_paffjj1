@@ -1,0 +1,21 @@
+﻿@model MVC_app2.Holiday
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        <h1>@Model.name</h1>
+        <h2>@Model.date</h2>
+        <img src=@Model.imageLoc>
+    </div>
+</body>
+</html>
