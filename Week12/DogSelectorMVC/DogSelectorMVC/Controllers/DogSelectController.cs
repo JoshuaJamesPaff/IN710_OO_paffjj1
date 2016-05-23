@@ -54,7 +54,7 @@ namespace DogSelectorMVC.Controllers
                 int difference = compareDog(dog, userDog);
 
                 //if score is less than lowest
-                if (difference < lowestScore)
+                if (difference <= lowestScore)
                 {
                     lowestScore = difference;
                     closestDog = dog;
