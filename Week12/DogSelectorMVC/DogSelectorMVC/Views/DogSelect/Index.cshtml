@@ -1,0 +1,93 @@
+﻿@model DogSelectorMVC.Models.Dog
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Dog Selector</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Fill out details below to find a matching Dog...</h2>
+        <form action="Result" method="post">
+            <fieldset>
+                <p>For each of the below please select how important the quality is:</p>
+                <p>Low<----------------->High</p>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Activity Level:</td>
+                            <td><input type="radio" name="activityLevel" value="NoSelection" /></td>
+                            <td><input type="radio" name="activityLevel" value="Low" /></td>
+                            <td><input type="radio" name="activityLevel" value="Medium" checked /></td>
+                            <td><input type="radio" name="activityLevel" value="High" /></td>
+                            
+                        </tr>
+                        <tr>
+                            <td>Coat Length:</td>
+                            <td><input type="radio" name="coatLength" value="NoSelection" /></td>
+                            <td><input type="radio" name="coatLength" value="Short" /></td>
+                            <td><input type="radio" name="coatLength" value="Medium" checked /></td>
+                            <td><input type="radio" name="coatLength" value="Long" /></td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Grooming Level:</td>
+                            <td><input type="radio" name="groomingLevel" value="NoSelection" /></td>
+                            <td><input type="radio" name="groomingLevel" value="Low" /></td>
+                            <td><input type="radio" name="groomingLevel" value="Medium" checked /></td>
+                            <td><input type="radio" name="groomingLevel" value="High" /></td>
+                        </tr>
+                        <tr>
+                            <td>Intelligence Level:</td>
+                            <td><input type="radio" name="intelligenceLevel" value="NoSelection" /></td>
+                            <td><input type="radio" name="intelligenceLevel" value="Low" /></td>
+                            <td><input type="radio" name="intelligenceLevel" value="Medium" checked /></td>
+                            <td><input type="radio" name="intelligenceLevel" value="High" /></td>
+                        </tr>
+                        <tr>
+                            <td>Shedding Level:</td>
+                            <td><input type="radio" name="sheddingLevel" value="NoSelection" /></td>
+                            <td><input type="radio" name="sheddingLevel" value="Low" /></td>
+                            <td><input type="radio" name="sheddingLevel" value="Medium" checked /></td>
+                            <td><input type="radio" name="sheddingLevel" value="High" /></td>
+                        </tr>
+                        <tr>
+                            <td>Size:</td>
+                            <td><input type="radio" name="size" value="NoSelection" /></td>
+                            <td><input type="radio" name="size" value="Miniature" /></td>
+                            <td><input type="radio" name="size" value="Low" /></td>
+                            <td><input type="radio" name="size" value="Medium" checked /></td>
+                            <td><input type="radio" name="size" value="High" /></td>
+                            <td><input type="radio" name="size" value="Giant" /></td>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>Drools?</td>
+                            <td>true<input type="radio" name="drools" value="true" checked /></td>
+                            <td>false<input type="radio" name="drools" value="false" /></td>
+                        </tr>
+                        <tr>
+                            <td>Good with Children?</td>
+                            <td>true<input type="radio" name="goodWithChildren" value="true" checked /></td>
+                            <td>false<input type="radio" name="goodWithChildren" value="false" /></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <input type="submit" value="Find Matching Dog" class="button" />
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>

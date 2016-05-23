@@ -1,0 +1,31 @@
+﻿@model DogSelectorMVC.Models.Dog
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Result</title>
+</head>
+<body>
+    <div> 
+        <p>Congratulations, a @Model.DisplayName has been selected as the best dog for you!</p>
+
+        <p>Breed: @Model.DisplayName</p>
+        <p>Size: @Model.Size</p>
+        <p>Activity level: @Model.ActivityLevel</p>
+        <p>Grooming level: @Model.GroomingLevel</p>
+        <p>Intellingence level: @Model.IntelligenceLevel</p>
+        <p>Coat length: @Model.Coatlength</p>
+        <p>Good with children: @Model.GoodWithChildren</p>
+        <p>Drools: @Model.Drools</p>
+
+        <img src="~/Content/DogImages/@Model.ImageName" />
+
+    </div>
+</body>
+</html>
